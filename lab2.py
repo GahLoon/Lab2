@@ -13,10 +13,13 @@ def bmi(height, weight):
 
     if value2 <18.5:
         print("Under weight")
+        return -1
     elif value2 >=18.5 and value2 <25:
         print("Normal Weight")
+        return 0
     else:
         print("Over weight")
+        return 1
 
 
 
